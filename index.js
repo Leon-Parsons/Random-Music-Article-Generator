@@ -10,7 +10,7 @@ let articleLink = document.getElementById("a-link");
 let nextButton = document.getElementById("next-a-btn").addEventListener("click",getArticle);
 
 const SECRET_API_KEY = '//REPLACE WITH API KEY SOURCED FROM https://newsapi.org/register'
-//API url sorted my muisc, latest published and english articles
+//API url sorted by music, latest published and english
 const url = 'https://newsapi.org/v2/everything?q=music&sortBy=publishedAt&language=en&apiKey=' + SECRET_API_KEY;
 
 //Updates HTML elements with currently generated article 
